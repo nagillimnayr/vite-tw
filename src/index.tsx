@@ -9,7 +9,7 @@ const main = ()=>{
   );
   root.render(
     <React.StrictMode>
-      <App>Hello World</App>
+      <App/>
     </React.StrictMode>
   );
 }
