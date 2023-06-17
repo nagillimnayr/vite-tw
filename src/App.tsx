@@ -1,6 +1,6 @@
 import React from 'react';
 import Node from './types/Node';
-import './styles/global.css';
+import './styles/tailwind.css';
 
 const App = ({ children }: { children?: Node }) => {
   return (
