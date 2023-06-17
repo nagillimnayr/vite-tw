@@ -1,5 +1,6 @@
 import React from 'react';
 import Node from './types/Node';
+import './styles/global.css';
 
 const App = ({ children }: { children?: Node }) => {
   return (
@@ -8,7 +9,7 @@ const App = ({ children }: { children?: Node }) => {
         <h1>Header</h1>
       </header>
 
-      <div>{children ?? null}</div>
+      <div>Hello, World!</div>
     </main>
   );
 };
